@@ -1,17 +1,11 @@
-# README #
+Este é um desafio de Coodesh Projeto feito para resolver algumas tasks e entre outros desafios. Foram ultilizados nesse projeto as linguagem Java e o Visual Studio Code.
 
-This document contains instructions to how to make your test. If you have any doubt, mail us at recrutamento@digiage.com.br.  
+Aqui vão as instruções de como instalar e usar o projeto para testarem as tasks.
 
-### What is this repository for? ###
+1- As task foram feitas no Visual Studio Code, primeiro passo instale o Vs Code e dentro dele instalem as seguintes extenções Spring Boot Extension Pack, Extension Pack for Java e HTTP Client.
 
-* This repository contains some code. It might be compiling or not :)
+2- A Task RESTAPIClientTask estão no seguinte caminho (myinterview/src/main/java/com/exemple), para rodarem essas tasks basta apenas baixarem os arquivos, abrirem com o Visual Studio Code com as extenções instaladas, e assim vai estar pronto para rodarem o código.
 
-### What it this test for and what should I do? ###
+3- A Task RESTAPIServerTask está no seguinte caminho (myinterview/src/main/java/com/exemple/demo), basta apenas baixarem o arquivo, abrir com o Visual Studio Code, após estar aberto no Vs Code, entrem no arquivo DemoApplication.java e rodem o código, após isso irá aparecer no terminal uma mensagem do Spring Boot, isso quer dizer que foi um sucesso, após isso abra o código do request.http, dentro dele você ira fazer as requisições com o método CRUD, dentro do request.http o método GET, POST, PUT e DELETE, terá um botão acima de cada um escrito "Send Rquest", apertando nele você fará todas as requisição de que precisar.
 
-* You'll find two tasks in this project, both are related to REST APIs.
-* In the task RESTAPIClientTask you gonna find a bonus task, related to AWS S3.
-* You can implement the resolution using your own expertise in Java.
-* Feel free to use frameworks or libraries that you are used to.
-
-### Contribution guidelines and Tips###
-* All tips and contributions are welcome. But be aware that existing errors might not be an accident. We would appreciate if you let us know anything that you realize during the exam. We expect that and it could raise your interview evaluation up.
+Aqui segue o link do projeto https://github.com/renanzimerman/digitest2024

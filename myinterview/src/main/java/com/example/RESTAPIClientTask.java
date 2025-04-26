@@ -31,6 +31,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
  * AWS S3 bucket name => interview-digiage
  * The credentials you can find in Coodesh platform or ask via e-mail for recrutamento@digiage.com.br
  */
+
 public class RESTAPIClientTask {
     public static void main(String[] args) throws Exception {
        String url = "https://3ospphrepc.execute-api.us-west-2.amazonaws.com/prod/RDSLambda";
@@ -52,7 +53,7 @@ public class RESTAPIClientTask {
                     genderCount.put(gender, genderCount.getOrDefault(gender, 0) + 1);
                 }
 
-                String filename = "renanzimermanleite.csv"; 
+                String filename = "renan_zimerman_leite.csv"; 
                 File csv = new File(filename);
 
                 try (FileWriter writer = new FileWriter(csv)) {

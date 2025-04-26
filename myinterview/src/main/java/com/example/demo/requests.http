@@ -1,0 +1,23 @@
+GET http://localhost:8080/api/persons
+Accept: application/json
+
+GET http://localhost:8080/api/persons/1
+Accept: application/json
+
+POST http://localhost:8080/api/persons
+Content-Type: application/json
+
+{
+  "name": "Renan Zimmermann",
+  "age": 30
+}
+
+PUT http://localhost:8080/api/persons/1
+Content-Type: application/json
+
+{
+  "name": "Felipe",
+  "age": 25
+}
+
+DELETE http://localhost:8080/api/persons/1
