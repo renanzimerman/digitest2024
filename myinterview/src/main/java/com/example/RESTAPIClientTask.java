@@ -31,7 +31,6 @@ import com.fasterxml.jackson.databind.ObjectMapper;
  * AWS S3 bucket name => interview-digiage
  * The credentials you can find in Coodesh platform or ask via e-mail for recrutamento@digiage.com.br
  */
-
 public class RESTAPIClientTask {
     public static void main(String[] args) throws Exception {
        String url = "https://3ospphrepc.execute-api.us-west-2.amazonaws.com/prod/RDSLambda";
